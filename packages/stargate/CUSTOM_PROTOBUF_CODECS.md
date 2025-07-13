@@ -14,13 +14,13 @@ CosmJS.
 
 - You are working on a TypeScript project. (Plain JS is possible but not covered
   by this document. It should work if you just strip out the type information.)
-- You have installed `@cosmjs/proto-signing`, `@cosmjs/stargate` and
+- You have installed `@allthatjazzleo/proto-signing`, `@cosmjs/stargate` and
   `@cosmjs/tendermint-rpc` as dependencies. In general these dependencies should
   all have the same version, and this document is accurate as of version 0.26.
   ```
   "dependencies": {
-    "@cosmjs/proto-signing": "^0.26.4",
-    "@cosmjs/stargate": "^0.26.4",
+    "@allthatjazzleo/proto-signing": "^0.26.4",
+    "@allthatjazzleo/stargate":  "^0.26.4",
     "@cosmjs/tendermint-rpc": "^0.26.4",
     // ...
   }
@@ -103,11 +103,11 @@ This section assumes that your definition files included `MsgXxx` `message`
 definitions for use in submitting transactions to a Cosmos SDK blockchain. You
 can instantiate a signing client for Stargate which supports those message types
 using a custom registry. We expose a `Registry` class from
-`@cosmjs/proto-signing` for you to use, which maps type URLs to codec objects.
+`@allthatjazzleo/proto-signing` for you to use, which maps type URLs to codec objects.
 For example:
 
 ```ts
-import { DirectSecp256k1HdWallet, Registry } from "@cosmjs/proto-signing";
+import { DirectSecp256k1HdWallet, Registry } from "@allthatjazzleo/proto-signing";
 import {
   defaultRegistryTypes as defaultStargateTypes,
   SigningStargateClient,

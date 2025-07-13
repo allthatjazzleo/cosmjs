@@ -1,4 +1,4 @@
-import { GeneratedType } from "@cosmjs/proto-signing";
+import { GeneratedType } from "@allthatjazzleo/proto-signing";
 import {
   MsgCreateGroup,
   MsgCreateGroupPolicy,

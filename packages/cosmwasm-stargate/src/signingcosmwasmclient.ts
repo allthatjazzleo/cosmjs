@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/naming-convention */
-import { encodeEthSecp256k1Pubkey, encodeSecp256k1Pubkey, makeSignDoc as makeSignDocAmino } from "@cosmjs/amino";
+import { encodeEthSecp256k1Pubkey, encodeSecp256k1Pubkey, makeSignDoc as makeSignDocAmino } from "@allthatjazzleo/amino";
 import { sha256 } from "@cosmjs/crypto";
 import { fromBase64, toHex, toUtf8 } from "@cosmjs/encoding";
 import { Int53, Uint53 } from "@cosmjs/math";
@@ -12,7 +12,7 @@ import {
   OfflineSigner,
   Registry,
   TxBodyEncodeObject,
-} from "@cosmjs/proto-signing";
+} from "@allthatjazzleo/proto-signing";
 import {
   AminoTypes,
   Attribute,
@@ -31,7 +31,7 @@ import {
   MsgWithdrawDelegatorRewardEncodeObject,
   SignerData,
   StdFee,
-} from "@cosmjs/stargate";
+} from "@allthatjazzleo/stargate";
 import { CometClient, connectComet, HttpEndpoint } from "@cosmjs/tendermint-rpc";
 import { assert, assertDefined } from "@cosmjs/utils";
 import { MsgWithdrawDelegatorReward } from "cosmjs-types/cosmos/distribution/v1beta1/tx";

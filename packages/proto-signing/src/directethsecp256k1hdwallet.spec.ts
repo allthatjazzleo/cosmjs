@@ -1,4 +1,4 @@
-import { coins } from "@cosmjs/amino";
+import { coins } from "@allthatjazzleo/amino";
 import { Secp256k1, Secp256k1Signature, keccak256, Slip10RawIndex } from "@cosmjs/crypto";
 import { fromBase64, fromHex } from "@cosmjs/encoding";
 

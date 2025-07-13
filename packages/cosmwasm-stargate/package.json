@@ -1,6 +1,6 @@
 {
-  "name": "@cosmjs/cosmwasm-stargate",
-  "version": "0.33.1",
+  "name": "@allthatjazzleo/cosmwasm-stargate",
+  "version": "0.33.2",
   "description": "CosmWasm SDK",
   "contributors": [
     "Will Clark <willclarktech@users.noreply.github.com>"
@@ -38,14 +38,14 @@
     "pack-web": "yarn build-or-skip && webpack --mode development --config webpack.web.config.js"
   },
   "dependencies": {
-    "@cosmjs/amino": "workspace:^",
-    "@cosmjs/crypto": "workspace:^",
-    "@cosmjs/encoding": "workspace:^",
-    "@cosmjs/math": "workspace:^",
-    "@cosmjs/proto-signing": "workspace:^",
-    "@cosmjs/stargate": "workspace:^",
-    "@cosmjs/tendermint-rpc": "workspace:^",
-    "@cosmjs/utils": "workspace:^",
+    "@allthatjazzleo/amino": "^0.33.2",
+    "@allthatjazzleo/proto-signing": "^0.33.2",
+    "@allthatjazzleo/stargate": "^0.33.2",
+    "@cosmjs/crypto": "^0.33.1",
+    "@cosmjs/encoding": "^0.33.1",
+    "@cosmjs/math": "^0.33.1",
+    "@cosmjs/tendermint-rpc": "^0.33.1",
+    "@cosmjs/utils": "^0.33.1",
     "cosmjs-types": "^0.9.0",
     "pako": "^2.0.2"
   },

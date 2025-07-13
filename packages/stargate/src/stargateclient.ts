@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/naming-convention */
-import { addCoins } from "@cosmjs/amino";
+import { addCoins } from "@allthatjazzleo/amino";
 import { toHex } from "@cosmjs/encoding";
 import { Uint53 } from "@cosmjs/math";
 import { CometClient, connectComet, HttpEndpoint, toRfc3339WithNanoseconds } from "@cosmjs/tendermint-rpc";
@@ -85,7 +85,7 @@ export interface IndexedTx {
    * const transactionId = toHex(sha256(indexTx.tx)).toUpperCase();
    * ```
    *
-   * Use `decodeTxRaw` from @cosmjs/proto-signing to decode this.
+   * Use `decodeTxRaw` from @allthatjazzleo/proto-signing to decode this.
    */
   readonly tx: Uint8Array;
   /**

@@ -1,4 +1,4 @@
-import { encodeEthSecp256k1Signature, rawEthSecp256k1PubkeyToRawAddress } from "@cosmjs/amino";
+import { encodeEthSecp256k1Signature, rawEthSecp256k1PubkeyToRawAddress } from "@allthatjazzleo/amino";
 import {
   Bip39,
   EnglishMnemonic,

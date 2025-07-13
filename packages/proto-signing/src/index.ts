@@ -37,4 +37,4 @@ export { makeAuthInfoBytes, makeSignBytes, makeSignDoc } from "./signing";
 export { executeKdf, KdfConfiguration } from "./wallet";
 
 // re-exports
-export { Coin, coin, coins, parseCoins } from "@cosmjs/amino";
+export { Coin, coin, coins, parseCoins } from "@allthatjazzleo/amino";
